@@ -85,11 +85,11 @@ body {
   margin: 0 auto;
   background-image: url("..//public/images/bg-pattern-intro-mobile.svg"),
     linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-  background-size: 20% 20%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   height: 100vh;
+  position: relative;
 }
 /* navigation */
 .navigation {
@@ -193,3 +193,69 @@ body {
 .signUp:hover .signUpLink {
   color: hsl(0, 0%, 100%);
 }
+/* header */
+.mainHeadingBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mainHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.mainTittle {
+  font-size: 4.8rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  margin-bottom: 2rem;
+  color: hsl(0, 0%, 100%);
+}
+.mainParagraph {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.8rem;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.mainBoxButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.btn {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.3rem 3.3rem;
+  border-radius: 4rem;
+  border: none;
+}
+.primaryLink {
+  color: hsl(356, 100%, 66%);
+  text-decoration: none;
+}
+.btnSecondary {
+  background-color: transparent;
+  box-shadow: 0 0 0 0.1rem hsl(0, 0%, 100%);
+}
+.secondaryLink {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+
+--- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+--- 07 WHITE SPASE
+ - SPACING SYSTEM (px)
+   2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
