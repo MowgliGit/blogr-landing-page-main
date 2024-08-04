@@ -94,7 +94,7 @@ body {
 }
 /* navigation */
 .navigation {
-  padding: 5rem 10rem 70rem 10rem;
+  padding: 5rem 10rem 0rem 10rem;
   display: flex;
   justify-content: space-between;
   cursor: pointer;
