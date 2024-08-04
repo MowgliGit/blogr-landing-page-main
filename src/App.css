@@ -90,6 +90,7 @@ body {
   background-position: left;
   height: 100vh;
   position: relative;
+  border-bottom-left-radius: 10rem;
 }
 /* navigation */
 .navigation {
