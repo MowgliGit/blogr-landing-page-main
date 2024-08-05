@@ -10,7 +10,7 @@ function MainPart1() {
             <h4 className="headingQuarternary">
               Introducing an extensible editor
             </h4>
-            <p className="paragraph">
+            <p className="paragraph ">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
               laudantium laboriosam nam deserunt sunt minima quidem cum tenetur?
               Maxime quidem commodi quod dolorum debitis porro eos quaerat
