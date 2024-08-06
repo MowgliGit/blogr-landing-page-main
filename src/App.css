@@ -106,7 +106,7 @@ body {
 }
 .logoName {
   color: hsl(0, 0%, 100%);
-  font-size: 5rem;
+  font-size: 5.2rem;
   font-style: 700;
   line-height: 1.1;
   letter-spacing: -1px;
@@ -350,6 +350,41 @@ body {
 .paragrapxBoxes:last-child {
   padding-left: 0;
   padding-right: 10rem;
+}
+/* footer */
+.gridFooter {
+  border-top-right-radius: 10rem;
+  background-color: hsl(237, 17%, 21%);
+  padding: 5rem 15rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: start;
+  justify-content: space-around;
+}
+.logoNameFooter {
+  color: hsl(0, 0%, 100%);
+  font-size: 5.2rem;
+  font-style: 700;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  display: flex;
+  align-self: flex-start;
+}
+.footerTitle {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.8rem;
+  margin-bottom: 3.2rem;
+}
+.footerList {
+  font-size: 1.6rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.footerLink {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
 }
 /*
 --- 01 TYPOGRAPHY SYSTEM
